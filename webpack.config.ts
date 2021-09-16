@@ -42,6 +42,6 @@ module.exports = {
       '@': path.resolve(__dirname, './src/')
     },
     // 自动解析确定的扩展, 能够使用户在引入模块时不带扩展
-    extensions: ['.js', 'jsx', '.json', 'ts', 'tsx']
+    extensions: ['.js', 'jsx', '.json', '.ts', '.tsx']
   }
 }
